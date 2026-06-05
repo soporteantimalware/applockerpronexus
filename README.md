@@ -24,7 +24,7 @@
 
 ## 💻 Nexus Host (servidor)
 
-<img src="https://i.servimg.com/u/f34/20/32/08/60/6d0d9410.png" alt="Nexus Cliente" width="500">
+<img src="https://i.servimg.com/u/f34/20/32/08/60/6d0d9410.png" alt="Nexus Cliente" width="800">
 
 </div>
 
