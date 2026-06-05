@@ -1,116 +1,172 @@
-# <img src="https://i.servimg.com/u/f34/20/32/08/60/apploc12.png" width="32" height="32"> AppLocker Pro
+# <img src="https://i.servimg.com/u/f34/20/32/08/60/apploc12.png" width="32" height="32"> AppLocker Pro Nexus 1.0.0
 
-> ## 🔒 Bloqueo y Protección Avanzada para Windows 10 & 11
+> ## 🌐🔒 Administración Remota y Protección Total para Windows 10 & 11
 >
-> Es una potente herramienta de seguridad diseñada para proteger tus aplicaciones mediante bloqueo automático, protección por contraseña y un nuevo sistema inteligente que solicita autenticación al detectar aperturas externas de aplicaciones protegidas.
+> **AppLocker Pro Nexus** es la evolución de AppLocker Pro Suite, incorporando una arquitectura **Host + Cliente** que permite administrar equipos de forma remota desde una consola centralizada.
 >
-> Ideal para padres, empresas, estudiantes o cualquier persona que quiera mantener sus programas seguros y evitar accesos no autorizados.
+> Combina las capacidades de **AppLocker Pro** para la protección de aplicaciones y **NetBlocker Pro** para el control de Internet, añadiendo conectividad remota para gestionar políticas de seguridad desde cualquier ubicación.
 >
-> Con una interfaz moderna y fácil de usar, AppLocker Pro funciona en segundo plano monitoreando los procesos del sistema para bloquear inmediatamente las aplicaciones protegidas.
+> Diseñado para empresas, técnicos, administradores de sistemas, instituciones educativas y usuarios avanzados que necesitan controlar uno o múltiples equipos de manera centralizada.
+>
+> **Control local. Administración remota. Seguridad total.**
 
 ---
+
+# 📸 Capturas de Pantalla
 
 <div align="center">
-  <h2>📸 Captura de Pantalla</h2>
-  <img src="https://i.servimg.com/u/f34/20/32/08/60/appl12.png" alt="AppLocker Pro Interface" width="700">
+
+## 🖥️ Nexus Host
+
+<img src="https://i.servimg.com/u/f34/20/32/08/60/ima10.png" alt="Nexus Host" width="800">
+
+<br>
+
+## 💻 Nexus Cliente
+
+<img src="https://i.servimg.com/u/f34/20/32/08/60/sin_tz20.png" alt="Nexus Cliente" width="500">
+
 </div>
-
----
-
-# ✨ Novedades en la versión 1.5.0
-
-✅ Nuevo modo de seguridad:
-
-### 🔐 Requerir contraseña al abrir externamente
-
-Ahora AppLocker Pro puede detectar cuando una aplicación protegida intenta abrirse desde accesos externos o procesos relacionados y solicitar automáticamente la contraseña maestra antes de permitir el acceso.
-
-Esto agrega una capa extra de protección avanzada y evita aperturas indirectas no autorizadas.
 
 ---
 
 # 💎 Comparativa de Licencias y Descarga
 
-| Funciones                                 |                                                                                                     Gratis (Trial)                                                                                                    |                                                                                              Suscripción Anual                                                                                             |                                                                          Licencia Vitalicia                                                                          |
-| :---------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| Bloqueo de aplicaciones                   |                                                                                                           ✅                                                                                                           |                                                                                                      ✅                                                                                                     |                                                                                   ✅                                                                                  |
-| Protección por contraseña                 |                                                                                                           ✅                                                                                                           |                                                                                                      ✅                                                                                                     |                                                                                   ✅                                                                                  |
-| Requerir contraseña al abrir externamente |                                                                                                           ✅                                                                                                           |                                                                                                      ✅                                                                                                     |                                                                                   ✅                                                                                  |
-| Pausar/Reanudar Protección                |                                                                                                           ✅                                                                                                           |                                                                                                      ✅                                                                                                     |                                                                                   ✅                                                                                  |
-| Iniciar con Windows                       |                                                                                                           ✅                                                                                                           |                                                                                                      ✅                                                                                                     |                                                                                   ✅                                                                                  |
-| Silenciar notificaciones                  |                                                                                                           ✅                                                                                                           |                                                                                                      ✅                                                                                                     |                                                                                   ✅                                                                                  |
-| Clave de recuperación                     |                                                                                                           ✅                                                                                                           |                                                                                                      ✅                                                                                                     |                                                                                   ✅                                                                                  |
-| **Duración**                              |                                                                                                      **15 DÍAS**                                                                                                      |                                                                                                  **1 AÑO**                                                                                                 |                                                                           **PARA SIEMPRE**                                                                           |
-| **Acción**                                | [![Probar](https://img.shields.io/badge/PROBAR_GRATIS-blue?style=for-the-badge\&logo=windows11\&logoColor=white)](https://github.com/soporteantimalware/applockerpro/releases/download/v1.5.0/AppLockerPro_1.5.0.exe) | [![PayPal](https://img.shields.io/badge/PAYPAL-ANUAL-764ba2?style=for-the-badge\&logo=paypal\&logoColor=white)](https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-0SB88094P7061501BNGASDPQ) | [![PayPal](https://img.shields.io/badge/PAYPAL-LIFETIME-667eea?style=for-the-badge\&logo=paypal\&logoColor=white)](https://www.paypal.com/ncp/payment/UUV7278W9YABN) |
+| Funciones                                 |                                                                                    Gratis (Trial)                                                                                   |                                                                                              Suscripción Anual                                                                                             |                                                                          Licencia Vitalicia                                                                          |
+| :---------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| 🔒 AppLocker Pro                          |                                                                                          ✅                                                                                          |                                                                                                      ✅                                                                                                     |                                                                                   ✅                                                                                  |
+| 🌐 NetBlocker Pro                         |                                                                                          ✅                                                                                          |                                                                                                      ✅                                                                                                     |                                                                                   ✅                                                                                  |
+| 🖥️ Host de administración remota         |                                                                                          ✅                                                                                          |                                                                                                      ✅                                                                                                     |                                                                                   ✅                                                                                  |
+| 💻 Cliente remoto                         |                                                                                          ✅                                                                                          |                                                                                                      ✅                                                                                                     |                                                                                   ✅                                                                                  |
+| Bloqueo de aplicaciones                   |                                                                                          ✅                                                                                          |                                                                                                      ✅                                                                                                     |                                                                                   ✅                                                                                  |
+| Bloqueo de sitios web                     |                                                                                          ✅                                                                                          |                                                                                                      ✅                                                                                                     |                                                                                   ✅                                                                                  |
+| Bloqueo de Internet por aplicación        |                                                                                          ✅                                                                                          |                                                                                                      ✅                                                                                                     |                                                                                   ✅                                                                                  |
+| Administración remota                     |                                                                                          ✅                                                                                          |                                                                                                      ✅                                                                                                     |                                                                                   ✅                                                                                  |
+| Protección por contraseña                 |                                                                                          ✅                                                                                          |                                                                                                      ✅                                                                                                     |                                                                                   ✅                                                                                  |
+| Requerir contraseña al abrir externamente |                                                                                          ✅                                                                                          |                                                                                                      ✅                                                                                                     |                                                                                   ✅                                                                                  |
+| Inicio con Windows                        |                                                                                          ✅                                                                                          |                                                                                                      ✅                                                                                                     |                                                                                   ✅                                                                                  |
+| **Duración**                              |                                                                                     **15 DÍAS**                                                                                     |                                                                                                  **1 AÑO**                                                                                                 |                                                                           **PARA SIEMPRE**                                                                           |
+| **Acción**                                | [![Probar](https://img.shields.io/badge/PROBAR_GRATIS-blue?style=for-the-badge\&logo=windows11\&logoColor=white)](https://github.com/soporteantimalware/applockerpronexus/releases) | [![PayPal](https://img.shields.io/badge/PAYPAL-ANUAL-764ba2?style=for-the-badge\&logo=paypal\&logoColor=white)](https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-0SB88094P7061501BNGASDPQ) | [![PayPal](https://img.shields.io/badge/PAYPAL-LIFETIME-667eea?style=for-the-badge\&logo=paypal\&logoColor=white)](https://www.paypal.com/ncp/payment/UUV7278W9YABN) |
 
 ---
 
 <p align="center">
-  <a href="https://github.com/soporteantimalware/applockerpro/releases">
-    <img src="https://img.shields.io/github/downloads/soporteantimalware/applockerpro/total?style=for-the-badge&color=28a745&logo=github" alt="Descargas">
-  </a>
+  <a href="https://github.com/soporteantimalware/applockerpronexus/releases">
+  <img src="https://img.shields.io/github/downloads/soporteantimalware/applockerpronexus/total?style=for-the-badge&color=28a745&logo=github" alt="Descargas">
 </p>
 
 ---
 
-# 🚀 ¿Por qué elegir AppLocker Pro?
+# 🚀 ¿Por qué elegir AppLocker Pro Nexus?
 
-| 💡 Beneficios Clave                                | ⚙️ Especificaciones                |
-| :------------------------------------------------- | :--------------------------------- |
-| 🔒 Restringe el acceso a programas sensibles.      | 🖥️ Compatible con Windows 10 y 11 |
-| 👨‍👩‍👧 Excelente para control parental.          | ⚡ Bajo consumo de RAM              |
-| 🛡️ Seguridad avanzada en tiempo real.             | 🌐 Funciona completamente offline  |
-| 🔑 Protección con contraseña maestra.              | 🚀 Inicio automático con Windows   |
-| 🧠 Nuevo sistema inteligente de detección externa. | 🔕 Modo silencioso disponible      |
+| 💡 Beneficios Clave                        | ⚙️ Especificaciones                |
+| :----------------------------------------- | :--------------------------------- |
+| 🌐 Administración remota centralizada      | 🖥️ Compatible con Windows 10 y 11 |
+| 🔒 Protección avanzada de aplicaciones     | ⚡ Bajo consumo de recursos         |
+| 🌐 Control total de Internet y navegación  | 🚀 Inicio automático con Windows   |
+| 🏢 Ideal para empresas y múltiples equipos | 🔄 Sincronización Host-Cliente     |
+| 🛡️ Seguridad multicapa                    | 🔕 Funcionamiento silencioso       |
+| 🔑 Control mediante autenticación          | 📡 Gestión remota en tiempo real   |
 
 ---
 
-# ⭐ Características Principales
+# 🔥 Arquitectura Nexus
 
-### 🔐 Seguridad Avanzada
+| Componente        | Función                                                    |
+| ----------------- | ---------------------------------------------------------- |
+| 🖥️ Nexus Host    | Consola principal para administrar equipos remotos.        |
+| 💻 Nexus Cliente  | Equipo administrado que recibe las políticas configuradas. |
+| 🔒 AppLocker Pro  | Protección y bloqueo de aplicaciones.                      |
+| 🌐 NetBlocker Pro | Control de sitios web y conexiones de red.                 |
 
-* Bloqueo automático de aplicaciones en tiempo real.
-* Protección robusta mediante contraseña maestra.
-* Nuevo modo de autenticación para aperturas externas.
-* Detección inteligente de procesos relacionados.
+---
 
-### ⚙️ Gestión Flexible
+# ⭐ Funciones de Administración Remota
 
-* Agrega aplicaciones por ejecutable (.exe).
-* Agrega programas mediante ruta personalizada.
-* Pausar o reanudar protección fácilmente.
-* Gestión rápida y sencilla desde la interfaz principal.
+### 🌐 Control Centralizado
 
-### 🚀 Rendimiento Optimizado
+* Gestión de equipos desde una ubicación central.
+* Aplicación remota de configuraciones.
+* Sincronización de políticas de seguridad.
+* Administración simplificada.
 
-* Funciona discretamente en segundo plano.
-* Consumo mínimo de recursos.
-* Inicio automático con Windows.
-* Compatible con equipos de bajos recursos.
+### 🖥️ Host
 
-### 🔑 Recuperación y Emergencia
+* Panel central de administración.
+* Gestión de múltiples clientes.
+* Configuración remota.
+* Supervisión de políticas activas.
 
-* Sistema de clave de recuperación.
-* Restauración segura de acceso.
-* Protección contra accesos no autorizados.
+### 💻 Cliente
+
+* Recepción automática de configuraciones.
+* Aplicación inmediata de políticas.
+* Operación silenciosa.
+* Protección continua.
+
+---
+
+# ⭐ Funciones de AppLocker Pro
+
+### 🔐 Protección de Aplicaciones
+
+* Bloqueo automático en tiempo real.
+* Protección mediante contraseña maestra.
+* Requerir contraseña al abrir externamente.
+* Monitoreo de procesos relacionados.
+* Clave de recuperación integrada.
+
+---
+
+# ⭐ Funciones de NetBlocker Pro
+
+### 🌐 Control de Internet
+
+* Bloqueo de sitios web.
+* Restricción por dominio.
+* Bloqueo de Internet por aplicación.
+* Gestión personalizada de reglas.
+* Protección mediante contraseña.
+
+---
+
+# 💎 Beneficios de Nexus
+
+| Beneficio                | Descripción                                   |
+| ------------------------ | --------------------------------------------- |
+| 🌐 Administración remota | Gestiona equipos desde cualquier ubicación.   |
+| 🛡️ Protección multicapa | Aplicaciones + Internet + Gestión remota.     |
+| ⚡ Escalable              | Ideal para uno o múltiples equipos.           |
+| 🔒 Mayor seguridad       | Control centralizado de políticas.            |
+| 🚀 Fácil implementación  | Configuración sencilla y rápida.              |
+| 🏢 Orientado a empresas  | Perfecto para oficinas y entornos educativos. |
 
 ---
 
 # 🛡️ Casos de Uso
 
-✅ Bloquear navegadores
-✅ Restringir videojuegos
-✅ Proteger herramientas empresariales
-✅ Evitar acceso a configuraciones del sistema
-✅ Control parental avanzado
-✅ Protección de software privado
+✅ Administración remota de equipos
+
+✅ Laboratorios informáticos
+
+✅ Oficinas corporativas
+
+✅ Centros educativos
+
+✅ Control parental remoto
+
+✅ Protección de estaciones de trabajo
+
+✅ Gestión centralizada de seguridad
+
+✅ Restricción de aplicaciones y navegación
 
 ---
 
 # ⚠️ Nota de Seguridad
 
 > [!CAUTION]
-> AppLocker Pro monitorea procesos del sistema para poder bloquear aplicaciones protegidas en tiempo real.
+> AppLocker Pro Nexus utiliza comunicación entre Host y Cliente para administrar políticas de seguridad, bloqueo de aplicaciones y control de Internet.
 >
 > Debido a este comportamiento técnico, algunos antivirus pueden mostrar alertas preventivas o falsos positivos.
 >
@@ -120,20 +176,24 @@ Esto agrega una capa extra de protección avanzada y evita aperturas indirectas 
 
 # 📦 Requisitos del Sistema
 
-| Requisito         | Mínimo          |
-| :---------------- | :-------------- |
-| Sistema Operativo | Windows 10 / 11 |
-| Arquitectura      | x64             |
-| RAM               | 2 GB            |
-| Espacio en Disco  | 100 MB          |
-| Internet          | No requerido    |
+| Requisito         | Mínimo                               |
+| ----------------- | ------------------------------------ |
+| Sistema Operativo | Windows 10 / 11                      |
+| Arquitectura      | x64                                  |
+| RAM               | 2 GB                                 |
+| Espacio en Disco  | 250 MB                               |
+| Red               | Requerida para administración remota |
 
 ---
 
 <div align="center">
 
-## ❤️ AppLocker Pro © 2026
+## ❤️ AppLocker Pro Nexus © 2026
 
-Protección con un clic y control total.
+### Administración remota + Protección de aplicaciones + Control de Internet
+
+**🖥️ Host + 💻 Cliente + 🔒 AppLocker Pro + 🌐 NetBlocker Pro**
+
+Seguridad centralizada para Windows.
 
 </div>
