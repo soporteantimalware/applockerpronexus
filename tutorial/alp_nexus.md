@@ -2,7 +2,7 @@
 
 > **AppLocker Pro Suite** funciona en dos partes:
 > - 🖥️ **AppLocker Host (Servidor)** — se instala en la PC que quieres controlar
-> - 💻 **ALP Cliente** — se usa en tu PC para controlar la PC remota
+> - 💻 **AppLocker Cliente** — se usa en tu PC para controlar la PC remota
 
 ---
 
@@ -130,4 +130,13 @@ Sí. La comunicación está protegida por:
 
 ---
 
-*Tutorial para AppLocker Pro Suite — [soporteantimalware.foroactivo.com](https://soporteantimalware.foroactivo.com)*
+## 📞 ¿Necesitas ayuda?
+
+Si tienes problemas con la configuración o alguna duda, contáctanos:
+
+- 💬 **Telegram:** [@soporteantimalware](https://t.me/soporteantimalware)
+- 📧 **Correo:** soporteantimalware@gmail.com
+
+---
+
+*Tutorial para AppLocker Pro Suite*
