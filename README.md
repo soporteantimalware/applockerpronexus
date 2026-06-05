@@ -16,15 +16,15 @@
 
 <div align="center">
 
-## 🖥️ Nexus Host
+## 🖥️ Nexus Cliente
 
-<img src="https://i.servimg.com/u/f34/20/32/08/60/ima10.png" alt="Nexus Host" width="800">
+<img src="https://i.servimg.com/u/f34/20/32/08/60/sin_tz21.png" alt="Nexus Host" width="800">
 
 <br>
 
-## 💻 Nexus Cliente
+## 💻 Nexus Host (servidor)
 
-<img src="https://i.servimg.com/u/f34/20/32/08/60/sin_tz20.png" alt="Nexus Cliente" width="500">
+<img src="https://i.servimg.com/u/f34/20/32/08/60/6d0d9410.png" alt="Nexus Cliente" width="500">
 
 </div>
 
