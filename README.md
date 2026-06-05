@@ -104,6 +104,8 @@
 * Operación silenciosa.
 * Protección continua.
 
+* 📖 [Guía de conexión remota paso a paso](tutorial/alp_nexus.md)
+
 ---
 
 # ⭐ Funciones de AppLocker Pro
