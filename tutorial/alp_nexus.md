@@ -32,7 +32,7 @@ Cuando dos PCs están en **redes distintas** (casa vs. trabajo, por ejemplo), no
 
 En la PC remota, abre AppLocker y ve al menú **⚙ Configuración → 📡 Control Remoto**:
 
-![Menú Configuración en AppLocker Host](tutorial/1.png)
+![Menú Configuración en AppLocker Host](1.png)
 
 Se abrirá la ventana de Control Remoto:
 
