@@ -130,7 +130,7 @@ Sí. La comunicación está protegida por:
 
 ---
 
-## 📞 ¿Necesitas ayuda?
+## ¿Necesitas ayuda?
 
 Si tienes problemas con la configuración o alguna duda, contáctanos:
 
@@ -139,4 +139,4 @@ Si tienes problemas con la configuración o alguna duda, contáctanos:
 
 ---
 
-*Tutorial para AppLocker Pro Suite*
+*Tutorial para AppLocker Pro Nexus*
