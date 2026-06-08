@@ -1,4 +1,4 @@
-# 📡 Cómo Conectar AppLocker Pro Nexus (Host + Cliente)
+# 📡 Cómo Conectar AppLocker Pro Nexus (Servidor + Cliente)
 
 > **AppLocker Pro Nexus** funciona en dos partes:
 >
