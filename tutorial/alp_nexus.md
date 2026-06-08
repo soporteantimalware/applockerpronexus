@@ -1,142 +1,342 @@
 # 📡 Cómo Conectar AppLocker Pro Suite (Host + Cliente)
 
 > **AppLocker Pro Suite** funciona en dos partes:
-> - 🖥️ **AppLocker Host (Servidor)** — se instala en la PC que quieres controlar
-> - 💻 **AppLocker Cliente** — se usa en tu PC para controlar la PC remota
+>
+> * 🖥️ **AppLocker Host (Servidor)** — se instala en la PC que deseas controlar.
+> * 💻 **AppLocker Cliente** — se utiliza para administrar y controlar la PC remota.
 
 ---
 
-## ❓ ¿Por qué necesito Tailscale?
+# 🌐 Métodos de conexión disponibles
 
-Cuando dos PCs están en **redes distintas** (casa vs. trabajo, por ejemplo), no pueden comunicarse directamente usando la IP local porque:
+AppLocker Pro Suite puede conectarse de dos formas:
 
-- Las IPs locales (`192.168.x.x`) **solo funcionan dentro de la misma red**
-- Las IPs públicas suelen ser **dinámicas** (cambian cada cierto tiempo)
-- Abrir puertos en el router es complicado y no siempre es posible
+## 🏠 Conexión Local (Misma Red)
 
-**Tailscale resuelve todo esto** creando una red privada virtual (VPN) entre tus dispositivos. Cada PC recibe una IP fija que **nunca cambia**, sin importar dónde estén ni qué red usen.
+Ideal cuando el Host y el Cliente están conectados al mismo router o red local (hogar, oficina, negocio, etc.).
 
----
+Utiliza la dirección IPv4 local de la PC donde está instalado el Host.
 
-## 🚀 Paso 1 — Instalar Tailscale en AMBAS PCs
+## 🌍 Conexión Remota con Tailscale
 
-1. Ve a 👉 **[https://tailscale.com/download](https://tailscale.com/download)**
-2. Descarga e instala Tailscale en **la PC remota (Host)** y en **tu PC (Cliente)**
-3. En cada PC, abre Tailscale y **inicia sesión** con la misma cuenta (Google, Microsoft o correo)
+Ideal cuando las PCs están en diferentes ubicaciones o redes.
 
-> ⚠️ **Importante:** Ambas PCs deben iniciar sesión con **la misma cuenta de Tailscale** para que puedan verse entre sí.
+Tailscale crea una red privada segura entre los equipos y proporciona una dirección IP fija que no cambia, permitiendo la conexión desde cualquier lugar sin abrir puertos en el router.
+
+> ⭐ Recomendado para la mayoría de los usuarios.
 
 ---
 
-## ⚙️ Paso 2 — Configurar AppLocker Host (PC remota)
+# 🏠 Opción 1 — Conexión Local (Misma Red)
 
-En la PC remota, abre AppLocker y ve al menú **⚙ Configuración → 📡 Control Remoto**:
+Si ambas PCs están conectadas a la misma red, puedes utilizar AppLocker Pro Suite sin instalar Tailscale.
 
-![Menú Configuración en AppLocker Host](1.png)
+## 🔍 Obtener la IP Local del Host
 
-Se abrirá la ventana de Control Remoto:
+En la PC que deseas controlar:
 
-![Ventana Control Remoto - Host](2.png)
+1. Presiona `Win + R`
+2. Escribe `cmd`
+3. Presiona Enter
+4. Ejecuta:
 
-Configura los siguientes campos:
-
-| Campo | Qué poner |
-|-------|-----------|
-| **Interfaz de red** | Selecciona la línea que muestre **Tailscale → 190.0.0.0** (la IP que empieza con `100.`) |
-| **Puerto** | Déjalo en `9999` (o elige otro si prefieres) |
-| **Token** | Escribe una contraseña secreta (ej: `miClave2025`) |
-
-> 🔴 **MUY IMPORTANTE:** El **Token (contraseña)** y el **Puerto** que pongas aquí deben ser **exactamente iguales** en el Cliente. Si no coinciden, la conexión fallará.
-
-Presiona **✅ Guardar y activar**. Verás una confirmación con los datos para el cliente:
-
-![Servidor activo - datos para el cliente](3.png)
-
-> 💡 Anota o copia la IP, Puerto y Token que se muestran — los necesitarás en el Cliente.
-
----
-
-## 💻 Paso 3 — Configurar ALP Cliente (tu PC)
-
-Abre ALP Cliente en tu PC. En la barra superior ingresa los datos que obtuviste del Host:
-
-![ALP Cliente - barra de conexión](4.png)
-
-| Campo | Qué poner |
-|-------|-----------|
-| **IP** | La IP de Tailscale de la PC remota (la que viste en el Host, ej: `190.0.0.0`) |
-| **Puerto** | El mismo que configuraste en el Host (ej: `9999`) |
-| **Token** | La misma contraseña que pusiste en el Host (ej: `miClave2025`) |
-
-Presiona **🔌 Probar conexión** — si todo está correcto verás:
-
-```
-✅ Conectado  (pong | 2026-01-01 12:00:00)
+```cmd
+ipconfig
 ```
 
----
+Busca una línea similar a esta:
 
-## ✅ ¡Listo! Ya puedes controlar la PC remota
-
-Una vez conectado podrás desde el Cliente:
-
-- 🔒 Bloquear y desbloquear aplicaciones remotamente
-- ⏰ Configurar desbloqueos temporales y horarios programados
-- 🌐 Gestionar sitios bloqueados con NetBlocker
-- 🖥️ Ver y finalizar procesos activos en la PC remota
-- 👁️ Ocultar/mostrar el ícono de AppLocker en la bandeja
-- 🔑 Activar licencias remotamente sin tocar la PC remota
-- 🔄 Actualizar el servidor en segundo plano
-
----
-
-## 🔄 Resumen rápido
-
-```
-PC Remota (Host)                         Tu PC (Cliente)
-────────────────────────                 ──────────────────────
-1. Instalar Tailscale               ←→   1. Instalar Tailscale
-2. Anotar IP Tailscale                   2. Abrir ALP Cliente
-   (ej: 190.0.0.0)                       3. Ingresar:
-3. Abrir AppLocker                          IP:     190.0.0.0
-4. Configuración → Control Remoto          Puerto: 9999
-5. Seleccionar IP Tailscale                Token:  miClave2025
-6. Puerto: 9999                          4. Probar conexión ✅
-7. Token:  miClave2025
-8. Guardar y activar ✅
+```text
+Dirección IPv4 . . . . . . . . . : 192.168.1.100
 ```
 
----
-
-## ❗ Solución de problemas
-
-| Problema | Solución |
-|----------|----------|
-| ❌ "Conexión rechazada" | Verifica que AppLocker Host esté activo y el servidor activado |
-| ❌ "Timeout" | Verifica que Tailscale esté conectado en ambas PCs |
-| ❌ "Token inválido" | El token no coincide — debe ser exactamente igual en ambas apps |
-| ❌ No aparece IP Tailscale | Asegúrate de haber iniciado sesión en Tailscale con la misma cuenta |
-| ❌ "Trial expirado" | Activa una licencia en AppLocker desde Cliente → ⚙ Configuración → 🔑 Licencia |
+Anota esa dirección IP.
 
 ---
 
-## 🔒 ¿Es seguro?
+## ⚙️ Configurar AppLocker Host
 
-Sí. La comunicación está protegida por:
+Abre AppLocker Host y ve a:
 
-- **Tailscale** cifra todo el tráfico con WireGuard (protocolo VPN moderno y seguro)
-- **El Token** actúa como contraseña adicional — nadie puede conectarse sin conocerlo
-- **La carpeta de configuración** está oculta en el sistema
+**⚙ Configuración → 📡 Control Remoto**
+
+Configura:
+
+| Campo           | Valor                                           |
+| --------------- | ----------------------------------------------- |
+| Interfaz de red | Selecciona la interfaz que contenga tu IP local |
+| Puerto          | 9999 (o el que prefieras)                       |
+| Token           | Contraseña de acceso                            |
+
+Presiona:
+
+✅ Guardar y activar
 
 ---
 
-## ¿Necesitas ayuda?
+## 💻 Configurar ALP Cliente
 
-Si tienes problemas con la configuración o alguna duda, contáctanos:
+Ingresa:
 
-- 💬 **Telegram:** [@soporteantimalware](https://t.me/soporteantimalware)
-- 📧 **Correo:** soporteantimalware@gmail.com
+| Campo  | Valor                           |
+| ------ | ------------------------------- |
+| IP     | Dirección IPv4 del Host         |
+| Puerto | El mismo configurado en el Host |
+| Token  | El mismo configurado en el Host |
+
+Ejemplo:
+
+```text
+IP:      192.168.1.100
+Puerto:  9999
+Token:   miClave2025
+```
+
+Presiona:
+
+🔌 Probar conexión
 
 ---
 
-*Tutorial para AppLocker Pro Nexus*
+## ⚠️ Desventaja de la IP Local
+
+La mayoría de routers asignan direcciones automáticamente mediante DHCP.
+
+Esto significa que la IP puede cambiar después de:
+
+* Reiniciar la PC
+* Reiniciar el router
+* Pasar varios días sin utilizar el equipo
+
+Por ejemplo:
+
+```text
+Hoy:      192.168.1.100
+Mañana:   192.168.1.105
+```
+
+Si la IP cambia, el Cliente dejará de conectarse hasta actualizar la nueva dirección.
+
+---
+
+## 🔒 Solución: Reservar una IP Fija
+
+Muchos routers permiten asignar siempre la misma IP a una PC específica.
+
+Ejemplo:
+
+```text
+PC Host → Siempre 192.168.1.100
+```
+
+De esta forma la conexión local seguirá funcionando sin necesidad de actualizar la IP.
+
+> 💡 La configuración depende de cada router y normalmente se encuentra en las opciones DHCP Reservation, Static Lease o Reserva DHCP.
+
+---
+
+# 🌍 Opción 2 — Conexión Remota con Tailscale (Recomendada)
+
+## ❓ ¿Por qué usar Tailscale?
+
+Cuando dos PCs están en redes distintas (casa y oficina, por ejemplo), normalmente no pueden comunicarse directamente porque:
+
+* Las IPs locales (`192.168.x.x`) solo funcionan dentro de la misma red.
+* Las IPs públicas suelen cambiar periódicamente.
+* Abrir puertos en el router puede ser complicado o imposible.
+
+Tailscale resuelve esto creando una red privada virtual segura entre tus dispositivos.
+
+Cada equipo recibe una IP privada permanente que normalmente comienza con:
+
+```text
+100.x.x.x
+```
+
+Esta IP funciona sin importar dónde se encuentre el equipo.
+
+---
+
+## 🚀 Paso 1 — Instalar Tailscale
+
+En ambas PCs:
+
+1. Descarga Tailscale desde:
+   https://tailscale.com/download
+
+2. Instálalo.
+
+3. Inicia sesión con la misma cuenta en ambas PCs.
+
+Puedes utilizar:
+
+* Google
+* Microsoft
+* GitHub
+* Correo electrónico
+
+> ⚠️ Ambas PCs deben estar dentro de la misma cuenta de Tailscale.
+
+---
+
+## ⚙️ Paso 2 — Configurar AppLocker Host
+
+Abre:
+
+**⚙ Configuración → 📡 Control Remoto**
+
+Selecciona la interfaz de Tailscale.
+
+Generalmente aparecerá una IP similar a:
+
+```text
+100.84.12.45
+```
+
+Configura:
+
+| Campo           | Valor              |
+| --------------- | ------------------ |
+| Interfaz de red | Tailscale          |
+| Puerto          | 9999               |
+| Token           | Contraseña secreta |
+
+Presiona:
+
+✅ Guardar y activar
+
+---
+
+## 💡 Importante
+
+El Puerto y el Token configurados en el Host deben coincidir exactamente con los configurados en el Cliente.
+
+Si alguno es diferente, la conexión será rechazada.
+
+---
+
+## 💻 Paso 3 — Configurar ALP Cliente
+
+Ingresa:
+
+| Campo  | Valor                           |
+| ------ | ------------------------------- |
+| IP     | IP Tailscale del Host           |
+| Puerto | El mismo configurado en el Host |
+| Token  | El mismo configurado en el Host |
+
+Ejemplo:
+
+```text
+IP:      100.84.12.45
+Puerto:  9999
+Token:   miClave2025
+```
+
+Presiona:
+
+🔌 Probar conexión
+
+Si todo está correcto aparecerá:
+
+```text
+✅ Conectado (pong | 2026-01-01 12:00:00)
+```
+
+---
+
+# ✅ Funciones disponibles una vez conectado
+
+Desde ALP Cliente podrás:
+
+* 🔒 Bloquear y desbloquear aplicaciones remotamente.
+* ⏰ Configurar desbloqueos temporales.
+* 📅 Crear horarios programados.
+* 🌐 Administrar sitios bloqueados con NetBlocker.
+* 🖥️ Ver procesos activos.
+* ❌ Finalizar procesos remotamente.
+* 👁️ Ocultar o mostrar el icono de AppLocker.
+* 🔑 Activar licencias remotamente.
+* 🔄 Actualizar el Host sin acceso físico.
+
+---
+
+# 🔄 Resumen rápido
+
+## 🏠 Conexión Local
+
+| PC Host                                                                                                                                                                               | PC Cliente                                                                                                           |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| 1. Obtener IPv4 con `ipconfig`<br>2. Abrir AppLocker Host<br>3. Ir a **Control Remoto**<br>4. Configurar Puerto: `9999`<br>5. Configurar Token: `miClave2025`<br>6. Guardar y activar | 1. Abrir ALP Cliente<br>2. IP: `192.168.1.100`<br>3. Puerto: `9999`<br>4. Token: `miClave2025`<br>5. Probar conexión |
+
+---
+
+## 🌍 Conexión con Tailscale
+
+| PC Host                                                                                                                                                                                                             | PC Cliente                                                                                                                                                     |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1. Instalar Tailscale<br>2. Iniciar sesión<br>3. Abrir AppLocker Host<br>4. Ir a **Control Remoto**<br>5. Seleccionar la interfaz Tailscale<br>6. Puerto: `9999`<br>7. Token: `miClave2025`<br>8. Guardar y activar | 1. Instalar Tailscale<br>2. Iniciar sesión<br>3. Abrir ALP Cliente<br>4. IP: `100.x.x.x`<br>5. Puerto: `9999`<br>6. Token: `miClave2025`<br>7. Probar conexión |
+
+---
+
+# 📊 Comparación de métodos
+
+| Característica                    | IPv4 Local | IPv4 Local + IP Fija | Tailscale |
+| --------------------------------- | ---------- | -------------------- | --------- |
+| Funciona en la misma red          | ✅          | ✅                    | ✅         |
+| Funciona entre redes distintas    | ❌          | ❌                    | ✅         |
+| Requiere configuración del router | ❌          | ✅                    | ❌         |
+| La IP puede cambiar               | ⚠️ Sí      | ❌ No                 | ❌ No      |
+| Fácil de configurar               | ✅          | ⚠️ Intermedio        | ✅         |
+| Recomendado para uso local        | ✅          | ⭐⭐⭐                  | ✅         |
+| Recomendado para acceso remoto    | ❌          | ❌                    | ⭐⭐⭐       |
+
+---
+
+# ❗ Solución de problemas
+
+| Problema                  | Solución                                                       |
+| ------------------------- | -------------------------------------------------------------- |
+| ❌ Conexión rechazada      | Verifica que el Host esté activo y el servidor esté habilitado |
+| ❌ Timeout                 | Comprueba que ambas PCs tengan conexión de red                 |
+| ❌ Token inválido          | Verifica que el Token sea idéntico en ambas aplicaciones       |
+| ❌ No aparece IP Tailscale | Inicia sesión correctamente en Tailscale                       |
+| ❌ La IP local cambió      | Configura una IP fija en el router                             |
+| ❌ Trial expirado          | Activa una licencia desde Configuración → Licencia             |
+
+---
+
+# 🔒 ¿Es seguro?
+
+Sí.
+
+La comunicación está protegida mediante:
+
+* Cifrado de red.
+* Autenticación mediante Token.
+* Configuración protegida localmente.
+
+Además, cuando se utiliza Tailscale, todo el tráfico se cifra mediante WireGuard, uno de los protocolos VPN más seguros y modernos disponibles actualmente.
+
+---
+
+# ⭐ Recomendación
+
+Si Host y Cliente siempre estarán dentro de la misma red, una IP local puede ser suficiente.
+
+Si deseas evitar problemas por cambios de IP dentro de la red local, configura una IP fija en el router.
+
+Si deseas conectarte desde cualquier lugar o administrar equipos ubicados en distintas redes, se recomienda utilizar Tailscale, ya que funciona tanto local como remotamente sin necesidad de abrir puertos ni realizar configuraciones avanzadas.
+
+---
+
+# ¿Necesitas ayuda?
+
+Si tienes dudas o problemas con la configuración:
+
+* 💬 **Telegram:** [@soporteantimalware](https://t.me/soporteantimalware)
+* 📧 **Correo:** [soporteantimalware@gmail.com](mailto:soporteantimalware@gmail.com)
+
+---
+
+*Tutorial oficial para AppLocker Pro Suite*
