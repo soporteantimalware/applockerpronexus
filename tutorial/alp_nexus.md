@@ -1,6 +1,6 @@
-# 📡 Cómo Conectar AppLocker Pro Suite (Host + Cliente)
+# 📡 Cómo Conectar AppLocker Pro Nexus (Host + Cliente)
 
-> **AppLocker Pro Suite** funciona en dos partes:
+> **AppLocker Pro Nexus** funciona en dos partes:
 >
 > * 🖥️ **AppLocker Host (Servidor)** — se instala en la PC que deseas controlar.
 > * 💻 **AppLocker Cliente** — se utiliza para administrar y controlar la PC remota.
@@ -9,7 +9,7 @@
 
 # 🌐 Métodos de conexión disponibles
 
-AppLocker Pro Suite puede conectarse de dos formas:
+AppLocker Pro Nexus puede conectarse de dos formas:
 
 ## 🏠 Conexión Local (Misma Red)
 
@@ -29,7 +29,7 @@ Tailscale crea una red privada segura entre los equipos y proporciona una direcc
 
 # 🏠 Opción 1 — Conexión Local (Misma Red)
 
-Si ambas PCs están conectadas a la misma red, puedes utilizar AppLocker Pro Suite sin instalar Tailscale.
+Si ambas PCs están conectadas a la misma red, puedes utilizar AppLocker Pro Nexus sin instalar Tailscale.
 
 ## 🔍 Obtener la IP Local del Host
 
@@ -339,4 +339,4 @@ Si tienes dudas o problemas con la configuración:
 
 ---
 
-*Tutorial oficial para AppLocker Pro Suite*
+*Tutorial oficial para AppLocker Pro Nexus*
