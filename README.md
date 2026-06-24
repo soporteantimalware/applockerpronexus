@@ -238,7 +238,7 @@
   https://github.com/soporteantimalware/netblockerpremium
 
 * 🛡️🌐 **AppLocker Pro Suite**
-  https://github.com/soporteantimalware/applockeprosuite
+  https://github.com/soporteantimalware/applockerprosuite
 
 ---
 
