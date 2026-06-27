@@ -46,13 +46,13 @@
 | Requerir contraseña al abrir externamente |                                                                                          ✅                                                                                          |                                                                                                      ✅                                                                                                     |                                                                                   ✅                                                                                  |
 | Inicio con Windows                        |                                                                                          ✅                                                                                          |                                                                                                      ✅                                                                                                     |                                                                                   ✅                                                                                  |
 | **Duración**                              |                                                                                     **15 DÍAS**                                                                                     |                                                                                                  **1 AÑO**                                                                                                 |                                                                           **PARA SIEMPRE**                                                                           |
-| **Acción**                                | [![Probar](https://img.shields.io/badge/PROBAR_GRATIS-blue?style=for-the-badge\&logo=windows11\&logoColor=white)](https://github.com/soporteantimalware/applockerpronexus/releases) | [![PayPal](https://img.shields.io/badge/PAYPAL-ANUAL-764ba2?style=for-the-badge\&logo=paypal\&logoColor=white)](https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-2LC10542U9615803DNISD7YA) | [![PayPal](https://img.shields.io/badge/PAYPAL-LIFETIME-667eea?style=for-the-badge\&logo=paypal\&logoColor=white)](https://www.paypal.com/ncp/payment/BAN5FLHSK6AN6) |
+| **Acción**                                | [![Probar](https://img.shields.io/badge/PROBAR_GRATIS-blue?style=for-the-badge\&logo=windows11\&logoColor=white)](https://github.com/escudodigitalsv/applockerpronexus/releases) | [![PayPal](https://img.shields.io/badge/PAYPAL-ANUAL-764ba2?style=for-the-badge\&logo=paypal\&logoColor=white)](https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-2LC10542U9615803DNISD7YA) | [![PayPal](https://img.shields.io/badge/PAYPAL-LIFETIME-667eea?style=for-the-badge\&logo=paypal\&logoColor=white)](https://www.paypal.com/ncp/payment/BAN5FLHSK6AN6) |
 
 ---
 
 <p align="center">
-  <a href="https://github.com/soporteantimalware/applockerpronexus/releases">
-  <img src="https://img.shields.io/github/downloads/soporteantimalware/applockerpronexus/total?style=for-the-badge&color=28a745&logo=github" alt="Descargas">
+  <a href="https://github.com/escudodigitalsv/applockerpronexus/releases">
+  <img src="https://img.shields.io/github/downloads/escudodigitalsv/applockerpronexus/total?style=for-the-badge&color=28a745&logo=github" alt="Descargas">
 </p>
 
 ---
@@ -198,7 +198,7 @@
 
 <div align="center">
 
-<img src="https://github.com/soporteantimalware/applockerpro/blob/aea72c6f141e471c3751d2afb4370da7f3b25cf3/img/SmartScreen.gif" alt="Cómo ejecutar AppLocker Pro Nexus" width="250">
+<img src="https://github.com/escudodigitalsv/applockerpro/blob/aea72c6f141e471c3751d2afb4370da7f3b25cf3/img/SmartScreen.gif" alt="Cómo ejecutar AppLocker Pro Nexus" width="250">
 
 </div>
 
@@ -232,13 +232,13 @@
 ### 📥 Accesos Directos
 
 * 🔒 **AppLocker Pro**
-  https://github.com/soporteantimalware/applockerpro
+  https://github.com/escudodigitalsv/applockerpro
 
 * 🌐 **NetBlocker Premium**
-  https://github.com/soporteantimalware/netblockerpremium
+  https://github.com/escudodigitalsv/netblockerpremium
 
 * 🛡️🌐 **AppLocker Pro Suite**
-  https://github.com/soporteantimalware/applockerprosuite
+  https://github.com/escudodigitalsv/applockerprosuite
 
 ---
 
