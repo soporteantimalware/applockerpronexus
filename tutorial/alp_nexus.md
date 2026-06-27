@@ -341,8 +341,8 @@ Si deseas conectarte desde cualquier lugar o administrar equipos ubicados en dis
 
 Si tienes dudas o problemas con la configuración:
 
-* 💬 **Telegram:** [@soporteantimalware](https://t.me/soporteantimalware)
-* 📧 **Correo:** [soporteantimalware@gmail.com](mailto:soporteantimalware@gmail.com)
+* 💬 **Telegram:** [@escudodigitalsv](https://t.me/escudodigitalsv)
+* 📧 **Correo:** [soporte@escudodigital.com](mailto:soporte@escudodigital.com)
 
 ---
 
